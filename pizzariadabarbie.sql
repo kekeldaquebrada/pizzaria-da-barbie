@@ -39,8 +39,8 @@ CREATE TABLE `agenda` (
 --
 
 INSERT INTO `agenda` (`id`, `nome`, `sobrenome`, `telefone`) VALUES
-(10, 'Gabriel', 'Rodrigues', '11940028922'),
-(11, 'Raquel', 'Honorato', '11987654321');
+(1, 'Gabriel', 'Rodrigues', '11940028922'),
+(2, 'Raquel', 'Honorato', '11987654321');
 
 --
 -- Índices para tabelas despejadas
@@ -60,7 +60,7 @@ ALTER TABLE `agenda`
 -- AUTO_INCREMENT de tabela `agenda`
 --
 ALTER TABLE `agenda`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
