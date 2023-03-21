@@ -24,6 +24,17 @@
         die("conexão com db falhou:".$conn->connect_error);
     }
     echo "conectado ao db";
+    //visualizar tabela
+    $sql="SELECT nome, sobrenome, telefone FROM agenda";
+    $result=$conn->query($sql);
+    if ($result->num_row>0){
+        while ($row=$result->fetch_assoc()){
+            echo "nome:". $row["nome"]. "sobrenome:". $row["sobrenome"]. "telefone:". $row["telefone"]."<br>";
+
+        }   
+    } else {
+        echo "tabela vazia";
+    }
     ?>
 </body>
 </html>
