@@ -8,7 +8,7 @@
     <title>BARBIE</title>
 </head>
 <body>
-    <H1>PIZZARIOA DA BARBIE</H1>
+    <H1>PIZZARIA DA BARBIE</H1>
     <?php
     //Bruna, Gabriel Rodrigues, Raquel e Thiago dantas 
     echo "isso é inclusão social";
