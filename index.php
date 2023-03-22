@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <H1>SOMOS GAYS</H1>
     <?php
     //Bruna, Gabriel Rodrigues, Raquel e Thiago dantas 
-    echo "isso é inclusão social"
+    echo "isso é inclusão social";
     ?>
     <?php 
     $servername="localhost";
@@ -27,9 +27,9 @@
     //visualizar tabela
     $sql="SELECT nome, sobrenome, telefone FROM agenda";
     $result=$conn->query($sql);
-    if ($result->num_row>0){
+    if ($result->num_rows>0){
         while ($row=$result->fetch_assoc()){
-            echo "nome:". $row["nome"]. "sobrenome:". $row["sobrenome"]. "telefone:". $row["telefone"]."<br>";
+            echo "nome:". $row["nome"]. " sobrenome:". $row["sobrenome"]. " telefone:". $row["telefone"]."<br>";
 
         }   
     } else {
