@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Barbie pizzas</title>
 </head>
 <body>
     <h1> Inserir contato</h1>
@@ -18,5 +19,8 @@
         <input type="submit" value="Gravar">
 </form>
 <a href="index.php">Consultar agenda </a>
+<?php 
+include "conexao.php";
+?>
 </body>
 </html>
