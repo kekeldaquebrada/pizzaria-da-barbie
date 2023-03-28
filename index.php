@@ -11,7 +11,7 @@
     <H1>PIZZARIA DA BARBIE</H1>
     <?php
     //Bruna, Gabriel Rodrigues, Raquel e Thiago dantas 
-    echo "isso é inclusão social";
+    echo "Clientes";
     ?>
     <?php 
     $servername="localhost";
@@ -24,7 +24,7 @@
     if ($conn->connect_error){
         die("conexão com db falhou:".$conn->connect_error);
     }
-    echo "conectado ao db";
+    //echo "conectado ao db";
     //visualizar tabela
     $sql="SELECT nome, sobrenome, telefone FROM agenda";
     $result=$conn->query($sql);
