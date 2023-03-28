@@ -37,5 +37,6 @@
         echo "tabela vazia";
     }
     ?>
+    <a href="contato.php"> Inserir clientes</a>
 </body>
 </html>
