@@ -29,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $sobrenome=$_POST["fsobrenome"];
     $telefone=$_POST["ftelefone"];
     //inserir dados na tabela
-    $sql="INSERT into agenda(nome, sobrenome, telefone) VALUES('$snome', '$sobrenome', '$telefone')";
+    $sql="INSERT into agenda(nome, sobrenome, telefone) VALUES('$nome', '$sobrenome', '$telefone')";
     if($conn->query($sql)===TRUE){
         echo "Dados inseridos com sucesso"."<br>";
     } else {
