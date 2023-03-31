@@ -8,4 +8,19 @@ body{
 h1{
     color: white;
     text-align: center;
+    font-size: xx-large;
 }
+a{
+    color: darkmagenta;
+}
+button{
+    
+        margin: 80px;
+    padding: 10px;
+        font-size: 15px;
+    
+        text-align: center;
+        color: rgb(0, 0, 0);
+        border: 3px solid #0510a7;
+        border-radius: 6%;
+    }  
