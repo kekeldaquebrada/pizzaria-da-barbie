@@ -13,6 +13,11 @@ h1{
 a{
     color: darkmagenta;
 }
+#botao{
+    
+    
+}
+
 button{
     
         margin: 80px;
@@ -20,7 +25,7 @@ button{
         font-size: 15px;
     
         text-align: center;
-        color: rgb(0, 0, 0);
-        border: 3px solid #0510a7;
+        color: rgb(248, 20, 218);
+        border: 3px solid #fdfdfd;
         border-radius: 6%;
     }  
