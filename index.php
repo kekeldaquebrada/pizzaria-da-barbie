@@ -8,7 +8,7 @@
     <title>BARBIE</title>
 </head>
 <body>
-<img src="images.png" alt="Barbie" width="18" height="10">
+<img src="images.png" alt="Barbie" width="50" height="88">
     <H1>PIZZARIA DA BARBIE</H1>
     <?php
     //Bruna, Gabriel Rodrigues, Raquel e Thiago dantas 
