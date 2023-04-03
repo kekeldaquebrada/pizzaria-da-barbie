@@ -39,5 +39,6 @@
     }
     ?>
     <a href="contato.php"> Inserir clientes</a>
+    <a href="login.php"> iniciar sessão</a>
 </body>
 </html>
