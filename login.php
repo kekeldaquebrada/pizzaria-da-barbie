@@ -18,5 +18,8 @@
     <?php
     echo "Fazer Login"
     ?>
+    <?php
+    include "conexao.php";
+    ?>
 </body>
 </html>
