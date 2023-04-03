@@ -7,6 +7,7 @@
     <title>Login</title>
 </head>
 <body>
+    <a href="index.php">Consultar agenda </a>
     <?php
     echo Fazer Login
 </body>
