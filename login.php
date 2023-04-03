@@ -10,6 +10,6 @@
     <a href="index.php">Consultar agenda </a>
     <?php
     echo "Fazer Login"
-    ?php
+    ?>
 </body>
 </html>
