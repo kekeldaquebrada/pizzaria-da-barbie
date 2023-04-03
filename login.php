@@ -15,7 +15,8 @@
         <input type="text" name="fusuario"><br>
         <label> Senha</label><br>
         <input type="text" name="fsenha"><br>
-        
+        <input type="submit" value="Entrar">
+        </form>
     <a href="index.php">Consultar agenda </a>
     <?php
     echo "Fazer Login"
