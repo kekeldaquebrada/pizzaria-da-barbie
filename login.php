@@ -7,8 +7,8 @@
 // Verifica se o formulário de login foi submetido
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtém o nome de usuário e senha do formulário
-    $usuario = mysqli_real_escape_string($conn, $_POST["usuario"]);
-    $senha = mysqli_real_escape_string($conn, $_POST["senha"]);
+    $usuario = mysqli_real_escape_string($conn, $_POST["fusuario"]);
+    $senha = mysqli_real_escape_string($conn, $_POST["fsenha"]);
 
     // Consulta o banco de dados para verificar se o usuário e senha correspondem a um registro
     $sql = "SELECT id FROM usuarios WHERE nome = '$usuario' AND senha = '$senha'";
