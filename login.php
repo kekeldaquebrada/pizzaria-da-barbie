@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <label> Usuario</label><br>
         <input type="text" name="fusuario"><br>
         <label> Senha</label><br>
-        <input type="text" name="fsenha"><br>
+        <input type="password" name="fsenha"><br>
         <input type="submit" value="Entrar">
         </form>
     <a href="index.php">Consultar agenda </a>
