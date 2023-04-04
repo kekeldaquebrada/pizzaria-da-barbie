@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-    <h1>Fazer Login</h1>
-
-    <form action="login.php" method="post">
-    <label> Usuario</label><br>
-        <input type="text" name="fusuario"><br>
-        <label> Senha</label><br>
-        <input type="text" name="fsenha"><br>
-        <input type="submit" value="Entrar">
-        </form>
-    <a href="index.php">Consultar agenda </a>
-    <?php
-    echo "Fazer Login"
-    ?>
-    <?php
+<?php
     include "conexao.php";
 
     // Inicializa a sessão
@@ -53,5 +30,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
     ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Fazer Login</h1>
+
+    <form action="login.php" method="post">
+    <label> Usuario</label><br>
+        <input type="text" name="fusuario"><br>
+        <label> Senha</label><br>
+        <input type="text" name="fsenha"><br>
+        <input type="submit" value="Entrar">
+        </form>
+    <a href="index.php">Consultar agenda </a>
+    <?php
+    echo "Fazer Login"
+    ?>
+    
 </body>
 </html>
