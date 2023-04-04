@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = mysqli_fetch_assoc($result);
         $_SESSION["user_id"] = $row["id"];
 
-        // Redireciona para a página de cadastro
+        // Redireciona para a página de cadastro.
         echo "<meta http-equiv='contato.php'content='0'/>";
         exit();
     } else {
