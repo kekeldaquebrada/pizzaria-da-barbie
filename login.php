@@ -2,7 +2,7 @@
     include "conexao.php";
 
     // Inicializa a sessão
-session_start();
+//session_start();
 
 // Verifica se o formulário de login foi submetido
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
