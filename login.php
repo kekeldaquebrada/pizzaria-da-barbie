@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <h1>Fazer Login</h1>
 
-    <form action="login.php" method="post">
+    <form action="" method="post">
     <label> Usuario</label><br>
         <input type="text" name="fusuario"><br>
         <label> Senha</label><br>
