@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Redireciona para a página de cadastro
         //header("Location: contato.php");
        // exit();
-       echo "login correto";
+       echo "login correto". "<a href='contato.php'>Inserir dados </a>";
     } else {
         // Exibe uma mensagem de erro caso o usuário e senha não correspondam a um registro
         $login_error = "Nome de usuário ou senha inválidos.";
