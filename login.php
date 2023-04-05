@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = mysqli_real_escape_string($conn, $_POST["password"]);
 
     // Consulta o banco de dados para verificar se o usuário e senha correspondem a um registro
-    $sql = "SELECT id FROM usuarios WHERE nome = '$username' AND senha = '$password'";
+    $sql = "SELECT id FROM usuarios2 WHERE nome = '$username' AND senha = '$password'";
     $result = mysqli_query($conn, $sql);
 
     // Verifica se a consulta retornou algum resultado
@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION["user_id"] = $row["id"];
 
         // Redireciona para a página de cadastro
-        header("Location: cadastro.php");
+        header("Location: contato.php");
         exit();
     } else {
         // Exibe uma mensagem de erro caso o usuário e senha não correspondam a um registro
