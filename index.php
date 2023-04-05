@@ -40,6 +40,5 @@
     ?>
     <a href="contato.php"> Inserir clientes</a>
     <a href="login.php"> iniciar sessão</a>
-    <a href="log2.php"> Cadastrar</a>
 </body>
 </html>
