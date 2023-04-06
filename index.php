@@ -38,7 +38,6 @@
         echo "tabela vazia";
     }
     ?>
-    <a href="contato.php"> Inserir clientes</a>
-    <a href="login.php"> iniciar sessão</a>
+    <a href="login.php"> Fazer Login</a>
 </body>
 </html>
